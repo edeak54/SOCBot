@@ -30,7 +30,7 @@ SOCBot is a lightweight, automated log monitoring and response system designed t
 # Installation
 1. **Clone the repository**:
 ```
-git clone https://github.com/yourusername/socbot.git
+git clone https://github.com/edeak54/socbot.git
 cd socbot
 ```
 ##
