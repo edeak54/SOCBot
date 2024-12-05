@@ -1,0 +1,1 @@
+# No additional dependencies required (re is part of Python's standard library)
