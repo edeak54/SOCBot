@@ -63,7 +63,7 @@ SOCBot works by continuously reading through system logs (such as /var/log/auth.
 * **Alerts**: SOCBot logs all suspicious activity, keeping you informed of security risks.
 
 # Customizing SOCBot 🔧 
-SOCBot's functionality is driven by rules. Each rule monitors a specific log pattern and triggers an action when the pattern is matched. You can add, modify, or remove rules by updating the rules list in script.py.\
+SOCBot's functionality is driven by rules. Each rule monitors a specific log pattern and triggers an action when the pattern is matched. You can add, modify, or remove rules by updating the rules list in script.py.
 
 Each rule has two components:
 
