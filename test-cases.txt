@@ -1,17 +1,17 @@
 Commands to simulate real logs.
 
-echo "Failed password for invalid user user1 from 192.168.1.100" | sudo tee -a var/log/auth.log
+echo "Failed password for invalid user user1 from 192.168.1.100" | sudo tee -a /var/log/auth.log
 
-echo "Failed password for root from 192.168.1.100" | sudo tee -a var/log/auth.log
+echo "Failed password for root from 192.168.1.100" | sudo tee -a /var/log/auth.log
 
-echo "sudo: user1 : TTY=tty1 ; PWD=/home/user1 ; COMMAND=/bin/bash" | sudo tee -a var/log/auth.log
+echo "sudo: user1 : TTY=tty1 ; PWD=/home/user1 ; COMMAND=/bin/bash" | sudo tee -a /var/log/auth.log
 
-echo "Accepted password for root from 192.168.1.100" | sudo tee -a var/log/auth.log
+echo "Accepted password for root from 192.168.1.100" | sudo tee -a /var/log/auth.log
 
-echo "Segfault at 0x00007ffd8b86b6e0 in /lib/x86_64-linux-gnu/libc.so.6" | sudo tee -a var/log/auth.log
+echo "Segfault at 0x00007ffd8b86b6e0 in /lib/x86_64-linux-gnu/libc.so.6" | sudo tee -a /var/log/auth.log
 
-echo "Failed password for root from invalid_ip_address" | sudo tee -a var/log/auth.log
+echo "Failed password for root from invalid_ip_address" | sudo tee -a /var/log/auth.log
 
-echo "System boot  2024-12-06 08:00:00" | sudo tee -a var/log/auth.log
+echo "System boot  2024-12-06 08:00:00" | sudo tee -a /var/log/auth.log
 
 
