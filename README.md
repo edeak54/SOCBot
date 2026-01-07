@@ -45,7 +45,7 @@ Modify the log_file variable in script.py to point to your system's log file, if
 ##
 4. **Run the monitoring script**:
 ```
-python3 script.py
+python3 socbot.py
 ```
 The bot will now continuously monitor logs for suspicious activity and respond accordingly!
 ##
