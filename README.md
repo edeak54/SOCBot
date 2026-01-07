@@ -1,4 +1,6 @@
 # SOCBot
+<img width="639" height="442" alt="image" src="https://github.com/user-attachments/assets/2e4c52e3-9f1f-4506-a683-32e44777e013" />
+
 SOCBot is a lightweight, automated log monitoring and response system designed to keep your system secure with minimal setup and configuration. Built to detect suspicious activity, respond in real-time, and block malicious IPs, SOCBot brings an extra layer of protection to your server environment by continuously monitoring authentication logs for anomalies.
 
 # Features 🚨 
